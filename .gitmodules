@@ -1,0 +1,3 @@
+[submodule "/home/jeet/.config/zsh/zplug"]
+	path = /home/jeet/.config/zsh/zplug
+	url = https://github.com/zplug/zplug
