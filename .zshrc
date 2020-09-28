@@ -13,10 +13,9 @@
 #                       /____/   
 #                       for zsh :)
 # This is a simple config where most settings are set here and functions and aliases are moved
-# into seperate files. plugins are mangaed by zplug 
+# into seperate files. plugins are managed by zplug 
 
-# Keep 1000 lines of history within the shell and save it to ~/.cache/zsh_history:
-
+# Keep 10000 lines of history within the shell and save it to ~/.cache/zsh_history:
 #history settings
 setopt histignorealldups sharehistory
 HISTSIZE=10000
@@ -57,7 +56,7 @@ zplug "ohmyzsh/ohmyzsh", as:plugin, use:"lib/{clipboard.zsh,correction.zsh,git.z
 zplug "zdharma/fast-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
 zplug "hlissner/zsh-autopair", defer:2
-zplug "jeetelongname/Yeet-theme", as:theme, defer:1
+zplug "jeetelongname/Yeet-theme", as:theme, defer:1, dir:~/code/git-repos/yeet-theme
 
 zplug "plugins/git", from:oh-my-zsh, lazy:true
 zplug "plugins/golang", from:oh-my-zsh, lazy:true
