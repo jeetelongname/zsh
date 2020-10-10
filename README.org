@@ -37,5 +37,5 @@ after that clone the repo
 #+BEGIN_SRC shell
 git clone --recursive https://github.com/jeetelongname/zsh  ~/.config/zsh
 #+END_SRC
-this also installs zplug. I should be seemless but i probably overlooked
+this also installs zplug. It should be seemless but i probably overlooked
 something. If it does not work [[mailto:jeetelongname@gmail.com][do get in touch!]]
