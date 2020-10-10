@@ -1,0 +1,41 @@
+#+TITLE: My zsh config
+
+* Overview
+its not much but its honest work
+I have spilt my config up into to nice sized chunks
++ ~.zshrc~ is the first file to be loaded and contains the basics.
+  - history
+  - completions
+  - vi mode and some exports
+  - the sourcing of all subsequent files
+  - all the plugins
++ ~zsh-aliases~ contains all my aliases..
++ ~zsh-functions~ contains snippets and functions that I use
+  - I use [[https://github.com/tmux/tmux][tmux]] , [[https://github.com/junegunn/fzf][fzf]]  and [[https://github.com/gokcehan/lf][lf]]  and my snippets reflect that. They may complain if
+    they are not installed. if you don't plan in using the snippets i would
+    recommend commenting them out or making them work for you
++ ~zsh-keys~ where I bind all my keys (all to of theme anyway)
++ ~fzf.zsh~ a crude way of intergrating fzf into my life
+
+
+
+* Installation
+I use zplug to manage my plugins and I set my ~ZDOTDIR~ to =.config/zsh=
+I recommend you do the same
+you can do this by adding this line to your profile file (.bash_profile .profile
+.zprofile.. you get the picture)
+#+BEGIN_SRC shell
+export ZDOTDIR="$HOME/.config/zsh"
+#+END_SRC
+
+then you can reload the value by sourcing the file
+#+BEGIN_SRC shell
+source ~/.profile
+#+END_SRC
+
+after that clone the repo
+#+BEGIN_SRC shell
+git clone --recursive https://github.com/jeetelongname/zsh  ~/.config/zsh
+#+END_SRC
+this also installs zplug. I should be seemless but i probably overlooked
+something. If it does not work [[mailto:jeetelongname@gmail.com][do get in touch!]]
