@@ -61,7 +61,7 @@ zplug "jeetelongname/Yeet-theme", as:theme, defer:1, dir:~/code/git-repos/yeet-t
 zplug "plugins/git", from:oh-my-zsh, lazy:true
 zplug "plugins/golang", from:oh-my-zsh, lazy:true
 zplug "plugins/pip", from:oh-my-zsh, lazy:true
-zplug "plugins/tmux", from:oh-my-zsh, lazy:true
+# zplug "plugins/tmux", from:oh-my-zsh, lazy:true
 zplug "plugins/alias-finder", from:oh-my-zsh, lazy:true
 zplug "plugins/colored-man-pages", from:oh-my-zsh, lazy:false
 
