@@ -1,2 +1,2 @@
 
-export PATH="/home/jeeta/.local/share/cargo/bin:$PATH"
+# export PATH="/home/jeeta/.local/share/cargo/bin:$PATH"
