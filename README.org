@@ -9,7 +9,6 @@ I have spilt my config up into to nice sized chunks
   - vi mode and some exports
   - the sourcing of all subsequent files
   - all the plugins
-+ ~zsh-aliases~ contains all my aliases..
 + ~zsh-functions~ contains snippets and functions that I use
   - I use [[https://github.com/tmux/tmux][tmux]] , [[https://github.com/junegunn/fzf][fzf]]  and [[https://github.com/gokcehan/lf][lf]]  and my snippets reflect that. They may complain if
     they are not installed. if you don't plan in using the snippets i would
