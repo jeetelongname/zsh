@@ -41,12 +41,12 @@ bindkey '^ ' autosuggest-accept
 
 #zsh functions that i have written/ stole live in here
 [ -f $ZDOTDIR/zsh-functions ] && source $ZDOTDIR/zsh-functions
-#aliases for commands
-[ -f ~/.config/aliases ] && source ~/.config/aliases
 #keybinds will live here
 [ -f $ZDOTDIR/zsh-aliases ] && source $ZDOTDIR/zsh-keys
 # I like fzf so i use it for stuff
 [ -f $ZDOTDIR/fzf.zsh ] && source $ZDOTDIR/fzf.zsh
+#aliases for commands
+[ -f ~/.config/aliases ] && source ~/.config/aliases
 ## I moved to zplug :) it was a little persnickity but we are all good now :)
 export ZPLUG_HOME=$ZDOTDIR/zplug
 source $ZPLUG_HOME/init.zsh 
@@ -62,7 +62,7 @@ zplug "plugins/git", from:oh-my-zsh, lazy:true
 zplug "plugins/golang", from:oh-my-zsh, lazy:true
 zplug "plugins/pip", from:oh-my-zsh, lazy:true
 # zplug "plugins/tmux", from:oh-my-zsh, lazy:true
-zplug "plugins/alias-finder", from:oh-my-zsh, lazy:true
+zplug "plugins/alias-finder", from:oh-my-zsh, as:plugin
 zplug "plugins/colored-man-pages", from:oh-my-zsh, lazy:false
 
 
