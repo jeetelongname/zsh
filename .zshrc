@@ -42,7 +42,7 @@ bindkey '^ ' autosuggest-accept
 #zsh functions that i have written/ stole live in here
 [ -f $ZDOTDIR/zsh-functions ] && source $ZDOTDIR/zsh-functions
 #aliases for commands
-[ -f $ZDOTDIR/zsh-aliases ] && source $ZDOTDIR/zsh-aliases
+[ -f ~/.config/aliases ] && source ~/.config/aliases
 #keybinds will live here
 [ -f $ZDOTDIR/zsh-aliases ] && source $ZDOTDIR/zsh-keys
 # I like fzf so i use it for stuff
