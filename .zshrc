@@ -39,6 +39,7 @@ export ENABLE_CORRECTION= "true"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=4'
 bindkey '^ ' autosuggest-accept
 
+[ -d ~/.emacs.d ] && (rmdir ~/.emacs.d)
 #zsh functions that i have written/ stole live in here
 [ -f $ZDOTDIR/zsh-functions ] && source $ZDOTDIR/zsh-functions
 #keybinds will live here
