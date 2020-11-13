@@ -64,7 +64,7 @@ zplug "plugins/golang", from:oh-my-zsh, lazy:true
 zplug "plugins/pip", from:oh-my-zsh, lazy:true
 # zplug "plugins/tmux", from:oh-my-zsh, lazy:true
 zplug "plugins/alias-finder", from:oh-my-zsh, as:plugin
-zplug "plugins/colored-man-pages", from:oh-my-zsh, lazy:false
+#zplug "plugins/colored-man-pages", from:oh-my-zsh, lazy:false
 
 
 if ! zplug check --verbose; then
