@@ -77,3 +77,4 @@ fi
 zplug load
 
 
+export PATH="$HOME/.poetry/bin:$PATH"
