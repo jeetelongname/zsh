@@ -52,7 +52,7 @@ bindkey '^ ' autosuggest-accept
 export ZPLUG_HOME=$ZDOTDIR/zplug
 source $ZPLUG_HOME/init.zsh 
 
-zplug "ohmyzsh/ohmyzsh", as:plugin, use:"lib/{clipboard.zsh,correction.zsh,git.zsh,grep.zsh,history.zsh,misc.zsh,prompt_info_functions.zsh,spectrum.zsh,theme-and-appearance.zsh}", defer:0
+# zplug "ohmyzsh/ohmyzsh", as:plugin, use:"lib/{clipboard.zsh,correction.zsh,git.zsh,grep.zsh,history.zsh,misc.zsh,prompt_info_functions.zsh,spectrum.zsh,theme-and-appearance.zsh}", defer:0
 #zplug "zsh-users/zsh-syntax-highlighting", defer:2 # 
 zplug "zdharma/fast-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
