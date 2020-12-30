@@ -59,9 +59,7 @@ zplug "zsh-users/zsh-autosuggestions", defer:2
 zplug "hlissner/zsh-autopair", defer:2
 zplug "jeetelongname/Yeet-theme", as:theme, defer:1, dir:~/code/git-repos/yeet-theme
 
-zplug "plugins/git", from:oh-my-zsh, lazy:true
-zplug "plugins/golang", from:oh-my-zsh, lazy:true
-zplug "plugins/pip", from:oh-my-zsh, lazy:true
+# zplug "plugins/golang", from:oh-my-zsh
 # zplug "plugins/tmux", from:oh-my-zsh, lazy:true
 zplug "plugins/alias-finder", from:oh-my-zsh, as:plugin
 #zplug "plugins/colored-man-pages", from:oh-my-zsh, lazy:false
