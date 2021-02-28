@@ -57,6 +57,8 @@ bindkey '^ ' autosuggest-accept
 [ -f $ZDOTDIR/fzf.zsh ] && source $ZDOTDIR/fzf.zsh
 #aliases for commands
 [ -f ~/.config/aliases ] && source ~/.config/aliases
+
+. $HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
 ## I moved to zplug :) it was a little persnickity but we are all good now :)
 export ZPLUG_HOME=$ZDOTDIR/zplug
 source $ZPLUG_HOME/init.zsh
