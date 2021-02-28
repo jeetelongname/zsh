@@ -1,4 +1,6 @@
 #+TITLE: My zsh config
+* THIS CONFIG IS NO LONGER MAINTAINED
+due to my move over to nix it saved time and energy to incorporate this repo into my [[https://github.com/jeetelongname/dotfiles][dotfiles]] repo
 
 * Overview
 its not much but its honest work
