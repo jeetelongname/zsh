@@ -61,6 +61,15 @@ bindkey '^ ' autosuggest-accept
 export ZPLUG_HOME=$ZDOTDIR/zplug
 source $ZPLUG_HOME/init.zsh
 
+export PF_INFO="ascii title os host kernel uptime pkgs shell palette" ## what is shown when pfetch is called
+#export PF_SEP=" ->" ## the seporator between the info title and the info data
+#export PF_SOURCE="/opt/shell-color-scripts/randomcolors.sh" ## a script to source before running pfetch
+
+export PF_COL1=4 ## colour of info names
+export PF_COL2=7 ## colour of info details
+export PF_COL3=5 ## color of the title (hostname and all that)
+export PF_ALIGN="8"
+
 # zplug "ohmyzsh/ohmyzsh", as:plugin, use:"lib/{clipboard.zsh,correction.zsh,git.zsh,grep.zsh,history.zsh,misc.zsh,prompt_info_functions.zsh,spectrum.zsh,theme-and-appearance.zsh}", defer:0
 #zplug "zsh-users/zsh-syntax-highlighting", defer:2 #
 zplug "zdharma/fast-syntax-highlighting", defer:2
